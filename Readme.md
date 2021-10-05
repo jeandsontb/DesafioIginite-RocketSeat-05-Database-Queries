@@ -24,7 +24,7 @@ No template, você irá encontrar uma aplicação já estruturada (apenas as ent
 
 A aplicação possui dois módulos: `users` e `games`. Um **usuário** pode ter vários jogos e um mesmo **jogo** pode estar associado a vários usuários.
 
-[Link do projeto sem as implementações]:https://github.com/rocketseat-education/ignite-template-database-queries
+[Link do projeto sem as implementações][linkProject]
 
 <!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Test" title="#Test" src="" width="400px">
@@ -53,15 +53,13 @@ TESTES:
 
 ```
 
-## Especificação para realizar os testes da aplicação
-
-## Repositórios da aplicação
 
 ## Comando para criar o container docker com os dados da aplicação
 
 ```bash
 docker run --name ignite-challenge-database-queries -e POSTGRES_DB=queries_challenge -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
+## Especificação para realizar os testes da aplicação
 
 Com o repositório criado a partir do template e clonado na sua máquina, navegue até os arquivos **`src/modules/users/repositories/implementations/UsersRepository.ts`** e **`src/modules/games/repositories/implementations/GamesRepository.ts`**. 
 Esses deverão ser completados para que os testes sejam satisfeitos. 
@@ -183,3 +181,4 @@ Observe que alguns métodos já possuem parte do código inserido para indicar q
 [express]: https://expressjs.com/pt-br/
 [uuid]: https://www.npmjs.com/package/uuid
 [Vscode]: https://code.visualstudio.com/
+[linkProject]:https://github.com/rocketseat-education/ignite-template-database-queries
