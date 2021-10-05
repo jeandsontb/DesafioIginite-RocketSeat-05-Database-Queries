@@ -26,11 +26,9 @@ A aplicação possui dois módulos: `users` e `games`. Um **usuário** pode ter 
 
 [Link do projeto sem as implementações][linkProject]
 
-<!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Test" title="#Test" src="" width="400px">
-
-  <img alt="Test" title="#Test" src="" width="400px">
-</p> -->
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Test" title="#Test" src="https://raw.githubusercontent.com/jeandsontb/DesafioIginite-RocketSeat-05-Database-Queries/main/screen/ormtests.png" width="400px">
+</p>
 
 ## 🛠 Tecnologias
 
